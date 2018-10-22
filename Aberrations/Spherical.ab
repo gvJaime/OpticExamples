@@ -59,7 +59,7 @@ object {
   leftSphereRadius          = 13.600000
   leftZValue                = 40.000000
   lensRadius                = 5.000000
-  name                      = LAQ0805
+  name                      = Spherical lens
   rightCurvature            = 3
   rightSphereRadius         = 22.900000
   rightZValue               = 40.000000
