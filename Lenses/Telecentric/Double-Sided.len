@@ -1,0 +1,177 @@
+# OpticalRayTracer 9.6
+# http://arachnoid.com/OpticalRayTracer
+# 2018.10.22 22:19:59 CEST
+
+program {
+  antialias                 = true
+  askBeforeDeleting         = true
+  beamAngle                 = 2.100000
+  beamCount                 = 33
+  beamWidth                 = 1
+  clipboardGraphicXSize     = 1280
+  colorArrow                = -2147483393
+  colorBaseline             = -16760832
+  colorBeam                 = -4194304
+  colorGrid                 = 1086374080
+  colorHighBackground       = -1
+  colorLensOutline          = 276865279
+  colorLensSelected         = 268484608
+  colorLightSource          = -16776961
+  colorLowBackground        = -16777216
+  colorTerminator           = -16777216
+  decimalPlaces             = 4
+  defaultWindowHeight       = 600
+  defaultWindowWidth        = 900
+  dispScale                 = 0.022935
+  dispersionBeams           = 0
+  divergingSource           = true
+  helpScrollPos             = 0
+  interLensEpsilon          = 1.000000e-06
+  intersectionArrowSize     = 0.050000
+  inverse                   = false
+  maxIntersections          = 64
+  selectedComponent         = -1
+  selectedTab               = 0
+  showControls              = true
+  showGrid                  = true
+  snapValue                 = 0.010000
+  surfEpsilon               = 5.000000e-04
+  tableLineLimit            = 500
+  virtualSpaceSize          = 100.000000
+  windowX                   = 100
+  windowY                   = 100
+  xBeamRotationPlane        = 0.000000e+00
+  xBeamSourceRefPlane       = -25.600000
+  xOffset                   = 19.883901
+  yEndBeamPos               = -2.500000
+  yOffset                   = -0.182613
+  yStartBeamPos             = 2.800000
+}
+
+object {
+  active                    = true
+  angle                     = 0.000000e+00
+  centerThickness           = 0.100000
+  dispersion                = 59.000000
+  function                  = 2
+  ior                       = 1.520000
+  leftCurvature             = 3
+  leftSphereRadius          = 10.000000
+  leftZValue                = 20.000000
+  lensRadius                = 10.000000
+  name                      = Sensor
+  rightCurvature            = 3
+  rightSphereRadius         = 10.000000
+  rightZValue               = 20.000000
+  symmetrical               = true
+  thickness                 = 0.100000
+  xPos                      = 45.200000
+  yPos                      = 0.000000e+00
+}
+
+object {
+  active                    = true
+  angle                     = 0.000000e+00
+  centerThickness           = 0.100000
+  dispersion                = 59.000000
+  function                  = 2
+  ior                       = 1.520000
+  leftCurvature             = 3
+  leftSphereRadius          = 6.000000
+  leftZValue                = 20.000000
+  lensRadius                = 2.000000
+  name                      = Central Aperture
+  rightCurvature            = 3
+  rightSphereRadius         = 6.000000
+  rightZValue               = 20.000000
+  symmetrical               = true
+  thickness                 = 0.100000
+  xPos                      = 17.500000
+  yPos                      = 2.100000
+}
+
+object {
+  active                    = true
+  angle                     = 0.000000e+00
+  centerThickness           = 0.100000
+  dispersion                = 59.000000
+  function                  = 2
+  ior                       = 1.520000
+  leftCurvature             = 3
+  leftSphereRadius          = 6.000000
+  leftZValue                = 20.000000
+  lensRadius                = 2.000000
+  name                      = Central Aperture
+  rightCurvature            = 3
+  rightSphereRadius         = 6.000000
+  rightZValue               = 20.000000
+  symmetrical               = true
+  thickness                 = 0.100000
+  xPos                      = 17.500000
+  yPos                      = -2.100000
+}
+
+object {
+  active                    = true
+  angle                     = 0.000000e+00
+  centerThickness           = 1.426765
+  dispersion                = 25.680000
+  function                  = 0
+  ior                       = 1.784700
+  leftCurvature             = 0
+  leftSphereRadius          = 12.250000
+  leftZValue                = 20.000000
+  lensRadius                = 5.000000
+  name                      = Meniscus
+  rightCurvature            = 0
+  rightSphereRadius         = -9.400000
+  rightZValue               = 20.000000
+  symmetrical               = false
+  thickness                 = 1.800000
+  xPos                      = 1.950000
+  yPos                      = 0.000000e+00
+}
+
+object {
+  active                    = true
+  angle                     = 0.000000e+00
+  centerThickness           = 3.533923
+  dispersion                = 64.170000
+  function                  = 0
+  ior                       = 1.516800
+  leftCurvature             = 0
+  leftSphereRadius          = 12.800000
+  leftZValue                = 40.000000
+  lensRadius                = 5.000000
+  name                      = Flint
+  rightCurvature            = 0
+  rightSphereRadius         = 12.800000
+  rightZValue               = 40.000000
+  symmetrical               = true
+  thickness                 = 1.500000
+  xPos                      = 0.000000e+00
+  yPos                      = 0.000000e+00
+}
+
+object {
+  active                    = true
+  angle                     = 0.000000e+00
+  centerThickness           = 2.853007
+  dispersion                = 59.000000
+  function                  = 0
+  ior                       = 1.520000
+  leftCurvature             = 0
+  leftSphereRadius          = 14.200000
+  leftZValue                = 20.000000
+  lensRadius                = 5.000000
+  name                      = Lens 1
+  rightCurvature            = 0
+  rightSphereRadius         = 28.400000
+  rightZValue               = 20.000000
+  symmetrical               = false
+  thickness                 = 1.500000
+  xPos                      = 36.000000
+  yPos                      = 0.000000e+00
+}
+
+
